@@ -1,8 +1,9 @@
 from Musician import Musician
 
 
-class Guitarist:
+class Guitarist(Musician):
     def __init__(self, name):
+        super().__init__(self)
         self.name = name
 
     def __str__(self):

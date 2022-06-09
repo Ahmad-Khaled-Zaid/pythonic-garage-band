@@ -1,5 +1,10 @@
-class Drummer:
+from Musician import Musician
+
+
+class Drummer(Musician):
     def __init__(self, name):
+        super().__init__(self)
+
         self.name = name
 
     def __str__(self):
