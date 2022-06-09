@@ -1,5 +1,9 @@
-class Bassist:
+from Musician import Musician
+
+
+class Bassist(Musician):
     def __init__(self, name):
+        super().__init__(self)
         self.name = name
 
     def __str__(self):
